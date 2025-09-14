@@ -1,0 +1,9 @@
+<h1>My Projects</h1>
+<ul>
+  <% @projects.each do |project| %>
+    <li>
+      <%= link_to project.title, project_path(project) %>
+      - <%= project.description.truncate(60) %> (<%= link_to "Visit", project.link, target: "_blank", rel: "noopener noreferrer" %>)
+    </li>
+  <% end %>
+</ul>
