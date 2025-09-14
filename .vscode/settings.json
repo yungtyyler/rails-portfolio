@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    "rubyLsp.rubyVersionManager": {
+        "identifier": "rbenv" // or "rvm"
+    },
+    "[ruby]": {
+        "editor.tabSize": 2
+    }
+}
